@@ -1,13 +1,13 @@
 '''
 This script sorts JPEG images in a given directory and all its subdirectories by their timestamp and renames them with sequential numbers.
 
-Usage: python sort_files.py directory start_value
+Usage: python sort_files_by_time.py directory start_value
 
 Arguments:
 - directory: The path to the directory that contains the JPEG images to be sorted and renamed. The script will also process any JPEG images in the subdirectories of the given directory.
 - start_value: The starting number for the renaming process.
 
-Example: python sort_files.py /home/user/Pictures 100
+Example: python sort_files_by_time.py /home/user/Pictures 100
 
 This will sort the JPEG images in /home/user/Pictures and its subdirectories by their timestamp and rename them as 100.jpg, 101.jpg, 102.jpg, etc.
 
